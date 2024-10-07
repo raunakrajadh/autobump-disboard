@@ -24,4 +24,4 @@ client.on('ready', async () => {
     loop()
 })
 
-client.login('MTI4MzM5MjMxMzA3MDE5NDc3MQ.GwichR.H3UBs1wAWlBY06zS9U5T0WwfRmaYpB9vsX0cgc');
+client.login('MTI4MzM5MjMxMzA3MDE5NDc3MQ.G01o3k.lzL6pmEaWIM0i-sgld5AFDRsp_iB8Brj_qsFLA');
