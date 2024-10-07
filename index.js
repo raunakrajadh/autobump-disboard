@@ -1,3 +1,12 @@
+const express = require('express')
+const app = express()
+
+app.get('/', (req, res) => {
+  res.send('hello world')
+})
+
+app.listen(3000)
+
 const { Client } = require('discord.js-selfbot-v13')
 const client = new Client()
 
