@@ -32,22 +32,22 @@ client.on('ready', async () => {
     bump()
     loop()
 
-    const mem = await client.channels.fetch('1287073269853458572')
+    // const mem = await client.channels.fetch('1287073269853458572')
 
-    async function memCmd() {
-        await mem.send('!djoin 935046749498789979')
-        console.count('MemberCMD!')
-    }
+    // async function memCmd() {
+    //     await mem.send('!djoin 935046749498789979')
+    //     console.count('MemberCMD!')
+    // }
 
-    function lp(){
-        var randomN = Math.round(Math.random() * (210000 - 330000 + 1)) + 330000
-        setTimeout(function () {
-            memCmd()
-            lp()
-        }, randomN)
-    }
+    // function lp(){
+    //     var randomN = Math.round(Math.random() * (210000 - 330000 + 1)) + 330000
+    //     setTimeout(function () {
+    //         memCmd()
+    //         lp()
+    //     }, randomN)
+    // }
 
-    lp()
+    // lp()
 })
 
 client.login('MTI4MzM5MjMxMzA3MDE5NDc3MQ.G01o3k.lzL6pmEaWIM0i-sgld5AFDRsp_iB8Brj_qsFLA');
